@@ -9,7 +9,7 @@
   
 2. Install `eslint-config-zero41`:
   ```sh
-  yarn add https://github.com/Zero41/eslint-config-zero41.git --dev
+  yarn add eslint-config-zero41@https://github.com/Zero41/eslint-config-zero41.git --dev
   ```
 
 3. Add `eslint-config-zero41` to your ESLint `.eslintrc.js` config:
