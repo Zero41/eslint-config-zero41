@@ -24,7 +24,7 @@
   ```
 
 4. If you are using absolute imports, use paths to define the root:
-  ```javascript
+  ```diff
   module.exports = {
     extends: ["eslint-config-zero41-react"],
     + settings: {
@@ -42,7 +42,7 @@
   ```
   
 5. If you have files types other than `*.js` or `*.ts` add them:
-  ```javascript
+  ```diff
   module.exports = {
     extends: ["eslint-config-zero41-react"],
     settings: {
