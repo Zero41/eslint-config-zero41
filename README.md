@@ -26,7 +26,7 @@
 4. If you are using absolute imports, use paths to define the root:
   ```javascript
   module.exports = {
-    extends: ["eslint-config-zero41-react"],
+    extends: ["eslint-config-zero41"],
   +  settings: {
   +    "import/resolver": {
   +      node: {
