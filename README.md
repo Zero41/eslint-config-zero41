@@ -27,13 +27,13 @@
   ```diff
   module.exports = {
     extends: ["eslint-config-zero41-react"],
-    + settings: {
-    +  "import/resolver": {
-    +    node: {
-    +      paths: ["./"],
-    +    },
-    +  },
-    +},
+  +  settings: {
+  +    "import/resolver": {
+  +      node: {
+  +        paths: ["./"],
+  +      },
+  +    },
+  + },
     parserOptions: {
       project: "./tsconfig.json",
       tsconfigRootDir: __dirname,
