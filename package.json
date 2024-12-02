@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-zero41",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Jon Cahill",
+  "description": "Standard ESLint used in all Zero41 Javascript and Typescript projects",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.25.9",
+    "@typescript-eslint/eslint-plugin": "^8.16.0",
+    "@typescript-eslint/parser": "^8.16.0",
+    "eslint": "^9.16.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.31.0",
+    "prettier": "^3.4.1"
+  }
+}
