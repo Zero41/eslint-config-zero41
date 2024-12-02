@@ -15,7 +15,7 @@
 3. Add `eslint-config-zero41` to your ESLint `.eslintrc.js` config:
   ```javascript
   module.exports = {
-    extends: ["eslint-config-zero41-react"],
+    extends: ["eslint-config-zero41"],
     parserOptions: {
       project: "./tsconfig.json",
       tsconfigRootDir: __dirname,
@@ -44,7 +44,7 @@
 5. If you have files types other than `*.js` or `*.ts` add them:
   ```javascript
   module.exports = {
-    extends: ["eslint-config-zero41-react"],
+    extends: ["eslint-config-zero41"],
     settings: {
       "import/resolver": {
         node: {
